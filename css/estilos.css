@@ -1,10 +1,57 @@
 h1{
-    color:lawngreen;
+    color: aliceblue;
     font-size: 80px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(196, 8, 86);
+    text-align: center;
   }
   
 body{
-    background-color: azure;
+    background-color: #006D77;
+    
+}
+p{
+  color:aliceblue;
+  padding: 20px 10px 15px 20px;
+  border: 10px solid #E29578;
+  margin-top: 30px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  text-align: center;
+  border-radius: 1em;
+}
+/* links 
+a:link{
+  color: #FFDDD2;
+  text-decoration: none;
+}
+a:visited{
+  color:#FF855C;
+  text-decoration: none;
+}
+
+/*cuando nos ponemos encima del link
+a:hover{
+  color:#ef476f;
+}
+a:active{
+  color: rgb(240, 3, 43);
+  text-decoration: underline;
+}
+*/
+
+/* links con botones */
+a:link, a:visited{
+  background-color: #00afb9;
+  color: aliceblue;
+  padding: 20px 10px;
+  margin: 20px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 1em;
+  display: inline-block;
+}
+a:hover, a:active{
+  background-color: #5e60ce;
+  border-radius: 1em;
 }
