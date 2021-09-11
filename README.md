@@ -1,2 +1,4 @@
 # Front-End
-Repositorio creado para la práctica de Front-End
+Front-end repository. 
+Made for practice. 
+
