@@ -1,15 +1,21 @@
-/* para agregar un estilo universal se usa * */
+/* para agregar un estilo universal se usa * 
 *{
     margin: 0;
     padding: 0;
 }
-
-h1{
+*/
+/* id de elemento unico en la página*/
+#titulo_principal{
+    color: rgb(216, 64, 221);
+    text-align: center;
+    margin: 18px;
+}
+h2{
     color: rgb(108, 8, 151);
     text-align: center;
     margin: 15px;
 }
-h2{
+h3{
     color: rgb(168, 32, 168);
     
 }
