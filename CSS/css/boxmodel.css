@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    color: blueviolet;
+}
+div{
+    padding: 10px;
+    border: 10px double #ae43ec;
+    margin: 20px;
+    background-color: rgba(195, 131, 238, 0.692);
+    width: 300px;
+   /* outline: 10px inset rgb(248, 136, 248); esto ocupa parte del margen para darle color o editarlo
+    outline-offset: 3px; esto separa el outline del borde*/
+    box-sizing: border-box;
+}

@@ -1,0 +1,27 @@
+/*selector universal
+*{
+    background-color: rgb(2, 35, 78);
+}
+
+ID
+
+#titulo{
+    color: rgb(241, 243, 236);
+    text-align: center;
+}
+clases: siempre comienza con . y letra, sin numeros y si son 2 palabras o mas con _ o - 
+.centrar{
+    text-align: center;
+}
+*/
+
+/* agrupar elementos
+
+h1, h2, p{
+    color: rgb(57, 5, 180);
+}
+*/
+/* subclases
+p.centrar{
+    text-align: center;
+}*/
