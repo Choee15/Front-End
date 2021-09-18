@@ -1,0 +1,21 @@
+elementos sem�nticos en HTML
+
+etiquetas estructurales
+nuevas etiquetas 
+<section> en vez de tipo div
+estos elementos definen una funci�n dentro de la pag HTML
+
+<article> elementos independientes 
+puede ser reutilizado dentro de la misma pag u otras
+los articulos pueden ir dentro de una sección o de manera independientes
+
+<aside> para agregar un elemento a la barra lateral
+suele usarse para agregar informaci�n adicional
+
+<header> y <footer> cabecero y pie de p�gina
+por lo general son el mismo en la pag web por lo que se puede reutilizar
+
+<hgroup> agrupar diferentes titulos 
+desde el h1 al h6 
+
+<nav> para definir una barra de navegaci�n 
