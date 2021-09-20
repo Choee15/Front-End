@@ -1,0 +1,26 @@
+/*Cada elemento html tiene su propia configuración de display por default
+pero con CSS se puede cambiar*/
+
+h1, div, p{
+    padding: 10px;
+    border: 3px solid violet;
+    text-align: center;
+    color: blue;
+    display: block;
+}
+h1{
+    display: none; /*oculta el elemento y no mustra el lugar donde debería ir*/
+}
+p{
+    visibility: hidden; /*esto oculta el elemento pero sigue manteniendo el espacio que le corresponde*/
+}
+span{
+    display: inline;
+    border: 1px solid plum;
+}
+a{
+    display: block;
+}
+li{
+    display: inline;
+}
