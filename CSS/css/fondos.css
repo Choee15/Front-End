@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(193, 167, 241);
+    color: black;
+    background-image: url(/CSS/img/fondo1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*fija la imagen, si hacemos scroll se mantiene la img de fondo y no sigue al scroll*/
+    /*
+    background: rgb(193, 167, 241) url(/CSS/img/fondo1.png) no-repeat;
+    haciendo esto se puede simplificar todo lo anterior.
+    */
+}
+h1{
+    background-color: blanchedalmond;
+    text-align: center;
+}
