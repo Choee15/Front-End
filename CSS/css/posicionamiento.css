@@ -1,0 +1,57 @@
+h1{
+    text-align: center;
+    color: seagreen;
+    text-decoration: underline overline;
+    text-shadow: 1px 1px 1px rgb(78, 185, 125);
+}
+
+.estatico{
+    max-width: 50%;
+    border: 2px solid rgb(241, 125, 71);
+    margin: auto;
+    text-align: center;
+    position: static;
+}
+/*Para los elementos de tipo div el posicionamiento por default es de static
+los elementos de tipo left, right, top o bottom son ayudan a posicionarlo como deseemos
+existen otros tipos de posicionamientos*/
+
+.relativo{
+    border: 3px solid pink;
+    margin: auto;
+    text-align: center;
+    max-width: 50%;
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+.ajustado{
+    border: 3px solid pink;
+    text-align: center;
+    position: fixed;
+    top: 150px;
+    left: 150px;
+} /*el posicionamiento de tipo fixed se mantiene en la pantalla aun scrolleando
+sirve para menu de navegación que queramos tener de manera fija o botones de chats*/
+div.absoluta{
+    border: 3px solid pink;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+/*toma la posición absoluta dentro de un div padre, el padre debe ser de tipo relativo o 
+NO static ya que no se puede modificar */
+
+.pegajoso{
+    border: 3px solid pink;
+    text-align: center;
+    position: sticky;
+    bottom: 10px;
+
+    
+}
+/*el posicionamiento de tipo sticky funciona como un elemento static siempre que se mantenga dentro de la vista de pantalla
+cuando sale, se comporta como un elemento de tipo ajustado
+apto para menus de navegación*/

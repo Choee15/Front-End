@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+div.contenedor{
+    border: 2px solid greenyellow;
+    width: 30%;
+    height: 100px;
+    margin: auto;
+    overflow: auto; /*las barras de scroll solo se muestran si son necesarias*/
+    /*overflow: scroll; todo el texto se muestra usando una barra de scroll*/
+    /*overflow: hidden; propiedad para que se oculte todo lo que sale del elemento div*/
+    /*overflow: visible; propiedad por default*/
+}
+/*cuando el texto sale del recuadro del div se conoce como overflow=visible
+esta propiedad de overflow solo se puede utilizar si especificamos el elemento height
+se puede especificar el valor de overflow solo para el elemento x o y con los mismos valores*/

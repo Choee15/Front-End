@@ -1,0 +1,25 @@
+h1{
+    color: rgb(128, 14, 235);
+    background-color: rgb(230, 215, 195);
+    border: 1px solid rgb(148, 175, 226);
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+div.contenedor{
+    position: relative;
+    border: 1px dashed rgb(52, 52, 240);
+    width: 30%;
+    margin: auto;
+}
+img.imagen{
+    width: 100%;
+    opacity: .5;
+}
+.centrar{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    border: 1px solid blue;
+    text-align: center;
+}
