@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    color: rgb(3, 112, 112);
+}
+div.contenedor{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid rgb(37, 178, 243);
+    padding: 15px;
+    color: rgb(41, 76, 182);
+    text-align: center;
+}
+div.contenedor:hover{
+    background-color: rgb(4, 85, 85);
+    color: whitesmoke;
+
+}
+div.contenedor.oculto p{
+    display: none;
+}
+div.contenedor.oculto:hover p{
+    display: block;
+    padding: 15px;
+    background-color: turquoise;
+    color: rgb(31, 30, 30);
+}
+div.contenedor.primero p:first-child{
+    font-style: italic;
+}

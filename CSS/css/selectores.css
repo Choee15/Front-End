@@ -1,0 +1,29 @@
+h1{
+    color: slateblue;
+    text-align: center;
+}
+div.contenedor{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid rgb(37, 178, 243);
+    padding: 15px;
+    color: rgb(41, 76, 182);
+}
+div.contenedor.descendiente p{ /*se escribe el tipo de selector más espacio " " y el elemento a cual se quiere aplicar*/
+    background-color: skyblue;
+}
+
+/*para los selectores de tipo hijo se escribe el tipo de selector y en vez de espacio + el elemento 
+se pone ">" mayor que y el elemento*/
+ div.contenedor.hijo > p{
+    background-color: rgb(106, 231, 200);
+ }
+ /*para los selectores de tipo adyacente se escribe el tipo de selector y se pone "+" más y el elemento*/
+ div.contenedor.adyacente + p{
+    background-color: rgb(110, 231, 106);
+ }
+ /*para los selectores de tipo hermano se escribe el tipo de selector y se pone "~" más y el elemento*/
+ div.contenedor.hermano ~ p{
+    background-color: rgb(241, 189, 76);
+ }

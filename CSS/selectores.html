@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores en CSS</title>
+    <link href="css/selectores.css" rel="stylesheet"/>
+</head>
+<body>
+    <h1>Selectores en CSS</h1>
+    <div class="contenedor descendiente">
+        Selectores descendientes (en cualquier nivel interno)
+        <p>Primer párrafo/renglon</p>
+        <p>Segundo párrafo/renglon</p>
+        <section>
+            <p>Tercer párrafo/renglon</p>
+        </section>
+    </div>
+    <!--Sin importar que el elemento sea directamente dentro del elemento div o dentro de otro elemento
+    el selector descendiente se aplica a todos los elementos
+    se aplican a todos los elementos hijos sean o no directamente hijos del elemento contenedor-->
+    <hr>
+    <br/><br/>
+    <div class="contenedor hijo">
+        Selectores de tipo HIJO (child)
+        <p>Primer párrafo/renglon</p>
+        <p>Segundo párrafo/renglon</p>
+        <section>
+            <p>Tercer párrafo/renglon</p>
+        </section>
+    </div>
+    <!--Los selectores de tipo hijo solo seleccionan a los hijos directos del elemento-->
+    <hr>
+    <br/><br/>
+    <div class="contenedor adyacente">
+        Selectores de tipo adyacente
+        <p>Primer párrafo/renglon</p>
+        <p>Segundo párrafo/renglon</p>
+        <section>
+            <p>Tercer párrafo/renglon</p>
+        </section>
+    </div>
+    <p>Cuarto párrafo</p>
+    <p>Quinto párrafo</p> <!--Este párrafo no se va a seleccionar porque no esta inmediatamente adyacente al contenedor-->
+    <!--los selectores de tipo adyacente modifican a su vez al elemento que se encuentra inmendiatamente
+    después del selector
+    el elemento que se encuentra dentro del contenedor no se seleccionará porque es de tipo hijo
+    solo se modifica el elemento adyacente al contenedor.-->
+    <hr>
+    <br/><br/>
+    <div class="contenedor hermano">
+        Selectores de tipo adyacente (sibling)
+        <p>Primer párrafo/renglon</p>
+        <p>Segundo párrafo/renglon</p>
+        <section>
+            <p>Tercer párrafo/renglon</p>
+        </section>
+    </div>
+    <p>Cuarto párrafo</p>
+    <p>Quinto párrafo</p>
+    <!--a diferencia del anterior, el contenedor de tipo hermano selecciona a todos los elementos
+    que se encuentan luego del contenedor, no es necesario que sean inmediatamente adyacentes al mismo
+    se encuentran al mismo nivel, por eso son hermanos-->
+</body>
+</html>
