@@ -1,0 +1,38 @@
+h1{
+    color: rgb(204, 0, 255);
+    text-align: center;
+}
+div.contenedor{
+    width: 80%;
+    height: 20%;
+    overflow: auto;
+    margin: auto;
+    border: 2px dotted pink;
+}
+span{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: large;
+    background-color: plum;
+    border: 1px solid rgb(228, 112, 228);
+    height: 50px;
+    padding: 5px;
+    display: inline-block;
+}
+.menu{
+    list-style-type: none;
+    text-align: center;
+    
+}
+.menu li{
+    display: inline-block;
+    border: 1px solid rgb(233, 96, 233);
+    background-color: rgb(236, 174, 236);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(11, 14, 1);
+}
