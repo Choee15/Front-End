@@ -28,3 +28,33 @@ div.contenedor.oculto:hover p{
 div.contenedor.primero p:first-child{
     font-style: italic;
 }
+
+div.contenedor1{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid rgb(238, 187, 21);
+    padding: 15px;
+    color: rgb(0, 1, 3);
+    text-align: center;
+}
+
+div.contenedor1 p::selection{
+    color: crimson;
+    background-color: rgb(245, 229, 13);
+}
+div.contenedor1 p::first-line{
+    font-variant: small-caps;
+}
+div.contenedor1 p::first-letter{
+    font-size: large;
+    color: darkmagenta;
+    font-weight: bolder;
+    font-style: italic;
+}
+div.contenedor1 p::before{
+    content: "- ";
+}
+div.contenedor1 p::after{
+    content: " -";
+}

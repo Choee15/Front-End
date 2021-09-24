@@ -23,3 +23,16 @@ img.imagen{
     border: 1px solid blue;
     text-align: center;
 }
+div.contenedor1{
+    position: relative;
+    border: 1px dashed rgb(52, 52, 240);
+    width: 30%;
+    margin: auto;
+}
+img.imagen1{
+    width: 100%;
+    opacity: .5;
+}
+img.imagen1:hover{
+    opacity: 1.0;
+}
