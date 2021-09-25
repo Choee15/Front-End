@@ -1,0 +1,42 @@
+html{
+    height: auto;
+    min-height: 100%;
+}
+/*ya que el gradiente no se mantiene en toda la página si esta cambia de tamaño, se selecciona el elemento html para 
+especificar que la altura del elemento body se mantenga al 100% en toda la página*/
+body{
+    /*background: linear-gradient(pink, red); /*aqui se pasan dos argumentos para generar el gradiente de color*/
+    /*background: linear-gradient(to right, pink, red, black); /*para que el gradiente sea de un lado a otro se escribe antes de los colores
+    to (right o left) */
+    /*background: linear-gradient( red, pink, black); /*le podemos pasar 3 parametros de colores*/
+    /*background: linear-gradient(to bottom right, pink, red); /*en diagonal, desde una esquina hacia la derecha*/
+    /*background: linear-gradient(145deg, pink, red);/*se puede especificar un ángulo*/
+    /*background: radial-gradient(circle, rgb(94, 10, 24), red); /*se especifica el tipo de figura con el que vamos a trabajar*/
+}
+h1{
+    color: rgb(193, 148, 235);
+    border: 1px solid rgb(148, 175, 226);
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+h2{
+    color: rgb(10, 92, 92);
+    border: 1px solid rgb(148, 175, 226);
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 3px 3px 1px gray;
+}
+div.contenedor{
+    position: relative;
+    border: 2px dashed rgb(52, 52, 240);
+    width: 30%;
+    margin: auto;
+    height: 20%;
+    padding: 15px;
+    text-align: center;
+    color: aqua;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px 2px gray; /*el ultimo valor es de el crecimiento de la sombra spread*/
+}
